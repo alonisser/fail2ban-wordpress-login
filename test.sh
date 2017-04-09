@@ -28,4 +28,8 @@ fail2ban-regex example.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wo
 echo "Example with 500 should have one hit"
 fail2ban-regex example500.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wordpress-login.conf
 
+echo "Example with xmlrpc should have one hit"
+
+fail2ban-regex exampleXMLRPC.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wordpress-login.conf
+
 
