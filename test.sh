@@ -19,9 +19,13 @@
 
 set -o nounset                              # Treat unset variables as an error
 echo "Example that should have no hits"
-fail2ban-regex no-block-example.log ~/Projects/fail2ban-wordpress-login/wordpress-login.conf
+fail2ban-regex no-block-example.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wordpress-login.conf
 
 
 echo "Example that should have one hit"
-fail2ban-regex example.log ~/Projects/fail2ban-wordpress-login/wordpress-login.conf
+fail2ban-regex example.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wordpress-login.conf
+
+echo "Example with 500 should have one hit"
+fail2ban-regex example500.log ~/Projects/fail2ban-wordpress-login/filter.d/nginx-wordpress-login.conf
+
 

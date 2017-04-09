@@ -1,0 +1,2 @@
+79.177.124.221 - - [09/Apr/2017:17:24:56 +0300] "POST /wp-login.php HTTP/1.1" 500 4268 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1"
+79.177.124.221 - - [09/Apr/2017:17:25:00 +0300] "POST /wp-login.php HTTP/1.1" 500 4262 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1"
